@@ -10,6 +10,53 @@
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/ctm-benin.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode,
+                    e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (!p || !p.fillText) return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                    case "emoji":
+                        return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -49,6 +96,8 @@
     <script type='text/javascript' src='{{asset('site/wp-content/plugins/revslider/public/assets/js/rs6.min.js')}}' id='revmin-js'></script>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{asset("site/wp-includes/wlwmanifest.xml")}}" />
     <meta name="generator" content="WordPress 6.0.1" />
+    <link rel="canonical" href="https://ctm-benin.org/" />
+    <link rel='shortlink' href='https://ctm-benin.org/' />
     <style type="text/css">
         h1 {
             font-size: 22px;
@@ -348,10 +397,10 @@
     </style>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <meta name="generator" content="Powered by Slider Revolution 6.1.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="icon" href="{{asset("site/wp-content/uploads/2022/07/logo.jpg")}}" sizes="32x32" />
-    <link rel="icon" href="{{asset("site/wp-content/uploads/uploads/2022/07/logo.jpg")}}" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{asset("site/wp-content/uploads/uploads/2022/07/logo.jpg")}}" />
-    <meta name="msapplication-TileImage" content="{{asset("site/wp-content/uploads/uploads/2022/07/logo.jpg")}}" />
+    <link rel="icon" href="{{asset("site/wp-content/uploads/2019/04/favicon-68x70.png")}}" sizes="32x32" />
+    <link rel="icon" href="{{asset("site/wp-content/uploads/2019/04/favicon.png")}}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{asset("site/wp-content/uploads/2019/04/favicon.png")}}" />
+    <meta name="msapplication-TileImage" content="{{asset("site/wp-content/uploads/2019/04/favicon.png")}}" />
     <script type="text/javascript">
         function setREVStartSize(t) {
             try {
@@ -1359,7 +1408,7 @@
                         <div class="col-md-12">
                             <div class="col-wrap-table">
                                 <div id="site-logo" class="site-logo col-media-left col-media-middle">
-                                    <a href="{{url("/")}}">
+                                    <a href="https://ctm-benin.org/">
 							<img class="logo-static" src="{{asset("site/wp-content/uploads/2022/07/logo.jpg")}}"  alt="Sit Bénin">
 							<img class="logo-scroll" src="{{asset("site/wp-content/uploads/2022/07/logo.jpg")}}" alt="Sit Bénin">
 													</a>
@@ -1368,7 +1417,7 @@
 
                                     <div id="site-navigation" class="main-navigation fright">
                                         <ul id="primary-menu" class="menu">
-                                            <li id="menu-item-2172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1530 current_page_item menu-item-2172"><a href="{{url("/")}}" aria-current="page">Accueil</a></li>
+                                            <li id="menu-item-2172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1530 current_page_item menu-item-2172"><a href="https://ctm-benin.org/" aria-current="page">Accueil</a></li>
                                             <li id="menu-item-2177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2177"><a href="#">Tourisme</a></li>
 
                                             {{-- <li id="menu-item-2173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2173"><a href="https://ctm-benin.org/a-propos/">Qui sommes-nous</a>
@@ -1387,11 +1436,11 @@
                                             {{-- <li id="menu-item-2175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2175"><a href="#">Archives</a></li> --}}
                                             <li id="menu-item-2176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2176"><a href="#">Inscription</a>
                                                 <ul class="sub-menu">
-                                                    <li id="menu-item-2278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2278"><a href="">Participant</a></li>
-                                                    <li id="menu-item-2279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279"><a href="">Exposant</a></li>
+                                                    <li id="menu-item-2278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2278"><a href="https://ctm-benin.org/formulaire-de-recensement/">Participant</a></li>
+                                                    <li id="menu-item-2279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279"><a href="https://ctm-benin.org/adherer-au-ctm-benin/">Exposant</a></li>
                                                 </ul>
                                             </li>
-                                            <li id="menu-item-2178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2178"><a href="">Contact</a></li>
+                                            <li id="menu-item-2178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2178"><a href="https://ctm-benin.org/contact/">Contact</a></li>
                                         </ul>
                                     </div>
                                     <!-- #site-navigation -->
@@ -1405,7 +1454,7 @@
             <div class="header_mobile">
                 <div class="mlogo_wrapper clearfix">
                     <div class="mobile_logo">
-                        <a href="{{url("/")}}"><img src="{{asset("site/wp-content/uploads/2022/07/logo.jpg")}}" alt="Sit Bénin"></a>
+                        <a href="https://ctm-benin.org/"><img src="{{asset("site/wp-content/uploads/2022/07/logo.jpg")}}" alt="Sit Bénin"></a>
                     </div>
                     <div id="mmenu_toggle">
                         <button></button>
@@ -1414,7 +1463,7 @@
                 <div class="mmenu_wrapper">
                     <div class="mobile_nav collapse">
                         <ul id="menu-ctm" class="mobile_mainmenu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1530 current_page_item menu-item-2172"><a href="{{url("/")}}" aria-current="page">Accueil</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1530 current_page_item menu-item-2172"><a href="https://ctm-benin.org/" aria-current="page">Accueil</a></li>
                             {{-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2173"><a href="https://ctm-benin.org/a-propos/">Qui sommes-nous</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2265"><a href="https://ctm-benin.org/a-propos/">A propos</a></li>
@@ -1433,11 +1482,11 @@
 
                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2176"><a href="#">Inscription</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2278"><a href="">Participant</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279"><a href="">Exposant</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2278"><a href="https://ctm-benin.org/formulaire-de-recensement/">Participant</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279"><a href="https://ctm-benin.org/adherer-au-ctm-benin/">Exposant</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2178"><a href="">Contact</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2178"><a href="https://ctm-benin.org/contact/">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1458,7 +1507,7 @@
 
                         <div class="col-md-8 col-sm-6">
                             <div class="widget-inner">
-                                <div id="media_image-1" class="widget widget_media_image"><img width="231" height="38" src="{{asset("site/wp-content/uploads/2022/07/logo.jpg")}}" class="image wp-image-2216  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" /></div>
+                                <div id="media_image-1" class="widget widget_media_image"><img width="231" height="38" src="{{asset("site/wp-content/uploads/2022/07/logo-footer.png")}}" class="image wp-image-2216  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" /></div>
                                 <div
                                     id="custom_html-1" class="widget_text widget widget_custom_html">
                                     <div class="textwidget custom-html-widget">
@@ -1488,8 +1537,9 @@
                                 <div class="textwidget custom-html-widget">
                                     <ul class="padd-left">
                                         <li><a href="#">Acceuil</a></li>
-                                        <li><a href="#">Tourisme</a></li>
-                                        <li><a href="#">Inscription</a></li>
+                                        <li><a href="#">A propos</a></li>
+                                        <li><a href="#">Nos Projets</a></li>
+                                        <li><a href="#">Actualités</a></li>
                                         <li><a href="#">Contact</a></li>
                                     </ul>
                                 </div>
@@ -1512,7 +1562,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="footer-copyright">
-                        © {{ now()->year }} SIT-BENIN Conçus par <a href="#">COGECOM IT</a>
+                        © 2020 - 2022 SIT-BENIN Conçus par <a href="#">COGECOM IT</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -1549,7 +1599,16 @@
             }
         }
     </script>
-
+    <script type='text/javascript' id='contact-form-7-js-extra'>
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "apiSettings": {
+                "root": "https:\/\/ctm-benin.org\/wp-json\/contact-form-7\/v1",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+        /* ]]> */
+    </script>
     <script type='text/javascript' src='{{asset('site/wp-content/plugins/contact-form-7/includes/js/scripts.js')}}' id='contact-form-7-js'></script>
     <script type='text/javascript' src='{{asset('site/wp-content/themes/consultax/js/countto.min.js')}}' id='countto-js'></script>
     <script type='text/javascript' src='{{asset('site/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js')}}' id='isotope-js'></script>
@@ -1559,7 +1618,22 @@
     <script type='text/javascript' src='{{asset('site/wp-content/themes/consultax/js/header-footer.js')}}' id='custom-header-scripts-js'></script>
     <script type='text/javascript' src='{{asset('site/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js')}}' id='wpb_composer_front_js-js'></script>
     <script type='text/javascript' src='{{asset('site/wp-content/plugins/dhvc-form/assets/js/jquery_cookie.js')}}' id='dhvc-form-jquery-cookie-js'></script>
-
+    <script type='text/javascript' id='dhvc-form-js-extra'>
+        /* <![CDATA[ */
+        var dhvcformL10n = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "plugin_url": "https:\/\/ctm-benin.org\/wp-content\/plugins\/dhvc-form",
+            "recaptcha_public_key": null,
+            "_ajax_nonce": "dc86e2a1a1",
+            "date_format": "Y\/m\/d",
+            "time_format": "H:i",
+            "time_picker_step": "60",
+            "dayofweekstart": "1",
+            "datetimepicker_lang": "en",
+            "container_class": ".vc_row-fluid"
+        };
+        /* ]]> */
+    </script>
     <script type='text/javascript' src='{{asset('site/wp-content/plugins/dhvc-form/assets/js/script.js')}}' id='dhvc-form-js'></script>
 
 </body>
