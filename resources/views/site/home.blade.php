@@ -250,7 +250,7 @@
                     </div>
                 </div>
             </section>
-            <section data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="wpb_row vc_row-fluid vc_custom_1658357203717 vc_row-full-width vc_row-no-padding">
+            {{-- <section data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="wpb_row vc_row-fluid vc_custom_1658357203717 vc_row-full-width vc_row-no-padding">
                 <div class="vc_row">
                     <div class="wpb_column vc_column_container vc_col-sm-12">
                         <div class="vc_column-inner">
@@ -347,7 +347,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <div class="vc_row-full-width vc_clearfix"></div>
             <section class="wpb_row vc_row-fluid section-padd vc_custom_1554106964126 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
                 <div class="container">
@@ -368,46 +368,30 @@
                         <div class="wpb_column vc_column_container vc_col-sm-12">
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
-                                    <div class="news-slider posts-grid row  " data-show="2" data-auto="true" data-dot="">
-
+                                    <div class="news-slider posts-grid row  " data-show="{{$events_count}}" data-auto="" data-dot="">
+        @foreach ($events as $event )
                                         <div>
                                             <article class="news-item content-area">
                                                 <div class="inner-item radius-top">
                                                     <div class="thumb-image">
-                                                        <a href="https://ctm-benin.org/2022/07/21/natitingou-lenvoutante/">
-                                    <img width="650" height="351" src="{{asset("site/wp-content/uploads/2022/07/decouvrir_natitingou_chutes-de-kota-650x351.jpg")}}" class="attachment-consultax-latest-news-thumbnail size-consultax-latest-news-thumbnail wp-post-image" alt="" loading="lazy" />                                </a>
+                                                        <a href="">
+                                    <img width="650" height="351" src="{{ asset('uploads/'. $event->image) }}" class="attachment-consultax-latest-news-thumbnail size-consultax-latest-news-thumbnail wp-post-image" alt="" loading="lazy" />                                </a>
                                                     </div>
                                                     <div class="inner-post radius-bottom">
                                                         <div class="entry-meta">
-                                                            <span class="posted-on"><time class="entry-date published updated" datetime="2022-07-21T14:32:10+02:00">21 juillet 2022</time></span><span class="posted-in"><a href="https://ctm-benin.org/category/actualite/" rel="category tag">Actualité</a></span>                                                            </div>
+                                                            <span class="posted-on"><time class="entry-date published updated" datetime="2022-07-21T14:32:10+02:00">{{$event->statut}}</time></span><span class="posted-in"><a href="" rel="category tag">Evenement</a></span>                                                            </div>
                                                         <h4 class="entry-title">
-                                                            <a href="https://ctm-benin.org/2022/07/21/natitingou-lenvoutante/">Natitingou : l’envoutante</a>
+                                                            <a href="">{{$event->name}}</a>
                                                         </h4>
-                                                        <p>Natitingou est un chef lieu composé de 65 villages et peuplée d’ethnies très diverses pour...</p> <a class="post-link" href="https://ctm-benin.org/2022/07/21/natitingou-lenvoutante/">
-                                Lire plus                            </a>
+                                                        <p>{{$event->description}}</p>
+                                                        {{-- <a class="post-link" href="https://ctm-benin.org/2022/07/21/natitingou-lenvoutante/">
+                                Lire plus                            </a> --}}
                                                     </div>
                                                 </div>
                                             </article>
                                         </div>
+        @endforeach
                                         <div>
-                                            <article class="news-item content-area">
-                                                <div class="inner-item radius-top">
-                                                    <div class="thumb-image">
-                                                        <a href="https://ctm-benin.org/2022/07/21/route-des-tata-geographie-histoire/">
-                                    <img width="650" height="351" src="{{asset("site/wp-content/uploads/2022/07/Photo_greniers_montagne_des_refus_site_archeologique-scaled-1-1024x681-650x351.jpg")}}" class="attachment-consultax-latest-news-thumbnail size-consultax-latest-news-thumbnail wp-post-image" alt="" loading="lazy" />                                </a>
-                                                    </div>
-                                                    <div class="inner-post radius-bottom">
-                                                        <div class="entry-meta">
-                                                            <span class="posted-on"><time class="entry-date published" datetime="2022-07-21T14:28:31+02:00">21 juillet 2022</time><time class="updated" datetime=""></time></span><span class="posted-in"><a href="https://ctm-benin.org/category/actualite/" rel="category tag">Actualité</a></span>                                                            </div>
-                                                        <h4 class="entry-title">
-                                                            <a href="https://ctm-benin.org/2022/07/21/route-des-tata-geographie-histoire/">Route des tata – Géographie &#038; histoire</a>
-                                                        </h4>
-                                                        <p>D’après les récits traditionnels, les Bètammaribè ne sont pas originaires de l’Atacora. Ils seraient venus...</p> <a class="post-link" href="https://ctm-benin.org/2022/07/21/route-des-tata-geographie-histoire/">
-                                Lire plus                            </a>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
                                     </div>
 
                                 </div>

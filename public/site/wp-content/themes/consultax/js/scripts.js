@@ -418,15 +418,13 @@
         var $dot = $(this).data('dot');
         var $auto = $(this).data('auto');
         var $m_show = $show;
-        if ($show >= 3) $m_show = $show - 1;
         $(this).slick({
             infinite: false,
             slidesToShow: $show,
             slidesToScroll: 1,
-            arrows: false,
-            dots: $dot,
+            arrows: true,
             autoplay: $auto,
-            autoplaySpeed: 6000,
+            autoplaySpeed: 600,
             prevArrow: '<button type="button" class="prev-nav"><i class="fa fa-angle-left"></i></button>',
             nextArrow: '<button type="button" class="next-nav"><i class="fa fa-angle-right"></i></button>',
             responsive: [{
@@ -434,8 +432,7 @@
                     settings: {
                         slidesToShow: $m_show,
                         slidesToScroll: 1,
-                        arrows: false,
-                        dots: true
+                        arrows: true,
                     }
                 },
                 {
@@ -443,8 +440,7 @@
                     settings: {
                         slidesToShow: $m_show - 1,
                         slidesToScroll: 1,
-                        arrows: false,
-                        dots: true
+                        arrows: true,
                     }
                 },
                 {
@@ -452,8 +448,7 @@
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
-                        arrows: false,
-                        dots: true
+                        arrows: true,
                     }
                 }
             ]
